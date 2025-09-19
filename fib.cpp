@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int fib(int n){
+    if(n <= 2){
+        return n;
+    }
+    return fib(n-2) + fib(n-1);
+}
+
+int main(){
+
+    int num;
+    cout<<"enter the number of fibonacci = "<<endl;
+    cin>>num;
+
+    cout << "the position at " << num << " is " << fib(num) << endl;
+    
+
+
+}
