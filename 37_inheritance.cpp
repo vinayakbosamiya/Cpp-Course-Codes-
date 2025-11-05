@@ -1,4 +1,5 @@
 /*
+Note : tut_36 Code is not available because in that available only explaination
 rules of inheritance visibility :
 1. default visibility is private
 2. public visibility mode: public member of the base class becomes public member of the derived class
@@ -60,4 +61,5 @@ p1.getData();
 
     
     
+
 }
