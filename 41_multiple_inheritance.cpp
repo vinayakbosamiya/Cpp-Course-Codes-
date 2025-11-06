@@ -1,3 +1,4 @@
+// multiple inheritance example
 #include<iostream>
 using namespace std;
 
@@ -37,7 +38,18 @@ int main(){
 }
 /*
 Note:
+inherited derived class show something like look 
 
+data member
+    b1 --> protected
+    b2 --> protected
+
+member function
+set_base1() --> public 
+set_base2() --> public 
+show() --> public
+
+---------------------------------------------------------------------------------------------------------------------------------
 1. inheritance rules 
 2. for a protected members:
 _________________________________________________________________________________________________
