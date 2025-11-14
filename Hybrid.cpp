@@ -1,4 +1,5 @@
-// (Hybrid = Combination of multiple + multilevel inheritance)
+// 1. (Hybrid = Combination of multiple + multilevel inheritance)
+// 2. (Hybrid = Combination of multilevel + multiple inheritance) 
 #include <iostream>
 using namespace std;
 
@@ -44,4 +45,5 @@ int main() {
 
     return 0;
 }
+
 
