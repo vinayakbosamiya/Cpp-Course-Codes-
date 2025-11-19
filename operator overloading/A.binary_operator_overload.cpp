@@ -33,4 +33,16 @@ r.display();
  
 
 // Note:- when write d1 + d2 compiler internally understand as d1.operator+(d2)
+    /* 
+
+    Note:- some operator is not overloading in c++ like:
+1. scope resolution operator        (::)
+2. member Access Operator           (.)
+3. pointer-to-member operator       (.)*
+4. conditional or Ternary Operator  (?:)
+5. sizeOf Operator                  (sizeof)
+6. object type opereator            (typeid)
+    
+    */
 }
+
