@@ -107,4 +107,13 @@ doc_pdf.build(story)
 
 docx_path, pdf_path
 
+
+
+Note:- some operator is not overloading in c++ like:
+1. scope resolution operator        (::)
+2. member Access Operator           (.)
+3. pointer-to-member operator       (.)*
+4. conditional or Ternary Operator  (?:)
+5. sizeOf Operator                  (sizeof)
+6. object type opereator            (typeid)
 */
