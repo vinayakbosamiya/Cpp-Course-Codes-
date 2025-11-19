@@ -1,3 +1,7 @@
+/* 1. static variable is common for all object of class 
+   2. static variable is shared by the all object
+   3. static variable is know as class variable because it is not atteched with object It is atteched with class  
+*/
 #include<iostream>
 using namespace std;
 
@@ -19,7 +23,7 @@ class employee{
     }
 };
 
-int employee :: count;
+int employee :: count; // Default value is 0
 
 int main(){
     typedef employee emp;
@@ -39,4 +43,5 @@ int main(){
     // n.getCount();
     emp::getCount();
     return 0;
+
 }
